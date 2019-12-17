@@ -1,0 +1,11 @@
+html
+  head
+    title My Site - #{title}
+    link(rel='stylesheet', href='./assets/css/app.min.css')
+  body
+    include ../components/header.pug
+    //- Content 
+    block content
+    include ../components/footer.pug
+    //- JavaScript
+    script(src='./assets/js/app.min.js')
