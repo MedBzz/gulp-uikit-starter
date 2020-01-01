@@ -1,4 +1,4 @@
-![enter image description here](https://github.com/MedBzz/gulpJs-uikit-starter/blob/master/src/tile.jpg)
+![enter image description here](https://github.com/MedBzz/gulp-uikit-starter/blob/master/src/tile.jpg)
 
 # Uikit 3 starter with Gulp Js 4
 
@@ -6,11 +6,11 @@ Kick-start your project with [Uikit 3](https://getuikit.com/), A lightweight and
 ## Theme development
 [Node.js](http://nodejs.org/) is the only required dependency to work with _HTML Starter_.
 
-#### [](https://github.com/MedBzz/gulpJs-uikit-starter.git#installation)Installation
+#### [](https://github.com/MedBzz/gulp-uikit-starter.git#installation)Installation
 
 1.  Install [Node.js](http://nodejs.org/) (installation depends on your system). After finishing, you will be able to check the version number using `node -v` and `npm -v` commands ([npm is distributed with Node.js](https://www.npmjs.com/get-npm)).
-2.  Clone the repo using `git clone https://github.com/MedBzz/gulpJs-uikit-starter.git` or [download _Uikit 3 Starter_](https://github.com/MedBzz/gulpJs-uikit-starter/archive/master.zip).
-3.  Open folder **gulpJs-uikit-starter** (command: `cd gulpJs-uikit-starter`) and install a packages of _HTML Starter_ via command:  `npm install`.
+2.  Clone the repo using `git clone https://github.com/MedBzz/gulp-uikit-starter.git` or [download _Uikit 3 Starter_](https://github.com/MedBzz/gulp-uikit-starter/archive/master.zip).
+3.  Open folder **gulp-uikit-starter** (command: `cd gulp-uikit-starter`) and install a packages of _HTML Starter_ via command:  `npm install`.
 
 Now you have everything you need to run the build process.
 
@@ -21,4 +21,4 @@ Now you have everything you need to run the build process.
 
 ## License
 
-Code released under the [MIT license](https://github.com/MedBzz/gulpJs-uikit-starter/blob/master/LICENSE.md).
+Code released under the [MIT license](https://github.com/MedBzz/gulp-uikit-starter/blob/master/LICENSE.md).
