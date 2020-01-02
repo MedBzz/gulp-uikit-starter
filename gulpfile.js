@@ -6,6 +6,7 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const minifyCSS = require('gulp-csso');
+const image = require('gulp-image');
 const browserSync = require('browser-sync').create();
 
 function html() {
@@ -42,10 +43,16 @@ function js() {
     .pipe(dest('dist/assets/js', { sourcemaps: true }))
 }
 
+function img() {
+    return src('./src/assets/images/*')
+    .pipe(image())
+    .pipe(dest('dist/assets/images'));
+}
+
 exports.js = js;
 exports.css = css;
 exports.html = html;
-exports.build = parallel(html, css, js);
+exports.build = parallel(html, css, js, img);
 
 
 exports.watch = function() {
